@@ -37,25 +37,7 @@ CivicFlow automatically routes grievances to the appropriate department, tracks 
 - Member 2: Shreya Gawhane
 
 
-## 🚀 How to Run the Project
 
-### ## Run
-Backend:
-
-cd backend
-
-npm install
-
-npm start
-
- 
-Frontend:
-
-cd frontend
-
-npm install
-
-npm run dev
 
 
 
