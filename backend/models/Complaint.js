@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
-const ComplaintSchema = new mongoose.Schema({
+const complaintSchema = new mongoose.Schema({
+  userId: mongoose.Schema.Types.ObjectId,
   category: String,
   description: String,
   location: String,
@@ -9,4 +10,4 @@ const ComplaintSchema = new mongoose.Schema({
   slaDeadline: Date
 }, { timestamps: true });
 
-module.exports = mongoose.model("Complaint", ComplaintSchema);
+module.exports = mongoose.model("Complaint", complaintSchema);
