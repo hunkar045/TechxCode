@@ -1,5 +1,3 @@
-# TechxCode
-Problem Statement:- Civic Flow
 # CivicFlow – Citizen Grievance Routing & SLA Tracking System  
 ### HackNagpur 2.0 Project
 
@@ -39,10 +37,12 @@ CivicFlow automatically routes grievances to the appropriate department, tracks 
 
 ### Step 2: Backend
 ```bash
-# Team Leader: Hunkar Chaware
-# Member 1: Poorva Jain
-# Member 2: Shreya Gawhane
-
 cd backend
 npm install
 node server.js
+
+
+
+# Team Leader: Hunkar Chaware
+# Member 1: Poorva Jain
+# Member 2: Shreya Gawhane
