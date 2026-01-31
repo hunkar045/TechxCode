@@ -41,8 +41,6 @@ cd backend
 npm install
 node server.js
 
-
-
-# Team Leader: Hunkar Chaware
-# Member 1: Poorva Jain
-# Member 2: Shreya Gawhane
+Team Leader: Hunkar Chaware
+ Member 1: Poorva Jain
+Member 2: Shreya Gawhane
