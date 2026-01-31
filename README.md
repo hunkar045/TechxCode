@@ -31,6 +31,11 @@ CivicFlow automatically routes grievances to the appropriate department, tracks 
 
 ---
 
+Team Leader: Hunkar Chaware
+ Member 1: Poorva Jain
+Member 2: Shreya Gawhane
+
+
 ## 🚀 How to Run the Project
 
 ### Step 1: Start MongoDB
@@ -41,6 +46,3 @@ cd backend
 npm install
 node server.js
 
-Team Leader: Hunkar Chaware
- Member 1: Poorva Jain
-Member 2: Shreya Gawhane
