@@ -1,12 +1,12 @@
 const mongoose = require("mongoose");
 
-const grievanceSchema = new mongoose.Schema({
-  citizenName: String,
+const ComplaintSchema = new mongoose.Schema({
   category: String,
   description: String,
-  department: String,
-  status: { type: String, default: "Pending" },
-  createdAt: { type: Date, default: Date.now }
-});
+  location: String,
+  priority: String,
+  status: { type: String, default: "Submitted" },
+  slaDeadline: Date
+}, { timestamps: true });
 
-module.exports = mongoose.model("Grievance", grievanceSchema);
+module.exports = mongoose.model("Complaint", ComplaintSchema);
