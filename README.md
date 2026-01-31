@@ -31,7 +31,7 @@ CivicFlow automatically routes grievances to the appropriate department, tracks 
 
 ---
 
-## TeamMemmbers
+## Team Members
 - Team Leader: Hunkar Chaware
 - Member 1: Poorva Jain
 - Member 2: Shreya Gawhane
