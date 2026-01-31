@@ -1,10 +1,5 @@
-import ComplaintForm from "./components/ComplaintForm";
+import Login from "./pages/Login";
 
 export default function App() {
-  return (
-    <div style={{ padding: 20 }}>
-      <h1>CivicPulse</h1>
-      <ComplaintForm />
-    </div>
-  );
+  return <Login />;
 }
