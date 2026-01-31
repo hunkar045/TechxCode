@@ -1,16 +1,27 @@
 const express = require("express");
-const connectDB = require("./config/db");
-const grievanceRoutes = require("./routes/grievanceRoutes");
+const mongoose = require("mongoose");
 const cors = require("cors");
+require("dotenv").config();
+
+const authRoutes = require("./routes/authRoutes");
+const complaintRoutes = require("./routes/complaintRoutes");
 
 const app = express();
-connectDB();
 
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/grievances", grievanceRoutes);
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log("MongoDB Connected"))
+  .catch(err => console.log(err));
 
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
+app.use("/api/auth", authRoutes);
+app.use("/api/complaints", complaintRoutes);
+
+app.get("/", (req, res) => {
+  res.send("CivicPulse Backend Running");
 });
+
+app.listen(process.env.PORT, () =>
+  console.log(`Server running on port ${process.env.PORT}`)
+);
