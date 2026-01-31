@@ -41,13 +41,20 @@ CivicFlow automatically routes grievances to the appropriate department, tracks 
 
 ### ## Run
 Backend:
+
 cd backend
+
 npm install
+
 npm start
 
+ 
 Frontend:
+
 cd frontend
+
 npm install
+
 npm run dev
 
 
