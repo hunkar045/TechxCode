@@ -16,11 +16,11 @@ CivicFlow automatically routes grievances to the appropriate department, tracks 
 ---
 
 ## ✨ Features
-- Easy to use interface  
-- Simple and clean design  
-- Fast and efficient grievance handling  
-- Transparent grievance status tracking  
-- Helpful for both citizens and authorities  
+- Citizen login & registration
+- Complaint registration
+- Priority tagging
+- SLA deadline
+- Stylish UI 
 
 ---
 
@@ -39,11 +39,16 @@ CivicFlow automatically routes grievances to the appropriate department, tracks 
 
 ## 🚀 How to Run the Project
 
-### Step 1: Start MongoDB
-
-### Step 2: Backend
-```bash
+### ## Run
+Backend:
 cd backend
 npm install
-node server.js
+npm start
+
+Frontend:
+cd frontend
+npm install
+npm run dev
+
+
 
