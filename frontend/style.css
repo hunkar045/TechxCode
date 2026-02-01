@@ -1,1 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.card {
+  width: 360px;
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #1e3c72;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 70px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#status {
+  margin-top: 10px;
+  color: green;
+}
