@@ -1,4 +1,4 @@
-# CivicFlow – Citizen Grievance Routing & SLA Tracking System  
+# CivicPulse – Citizen Grievance Routing & SLA Tracking System  
 ### HackNagpur 2.0 Project
 
 CivicFlow is a simple, user-friendly platform designed to help citizens report grievances and ensure timely resolution through proper routing and SLA tracking.
