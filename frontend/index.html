@@ -1,9 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>CivicPulse</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="root"></div>
+
+  <div class="card">
+    <h2>CivicPulse</h2>
+
+    <input id="name" placeholder="Name">
+    <input id="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Password">
+
+    <select id="type">
+      <option>Garbage</option>
+      <option>Water</option>
+      <option>Road</option>
+    </select>
+
+    <textarea id="desc" placeholder="Describe the issue"></textarea>
+
+    <input type="file" id="media">
+
+    <button onclick="submitComplaint()">Submit Complaint</button>
+
+    <p id="status"></p>
+  </div>
+
+<script src="script.js"></script>
 </body>
 </html>
